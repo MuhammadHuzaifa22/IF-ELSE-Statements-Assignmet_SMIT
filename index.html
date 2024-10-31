@@ -1,12 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Practice If Else Conditions</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <!-- Heading -->
+    <h1 class="text-center text-2xl font-medium mt-[100px]">
+      Conditional Logic Practice Form
+    </h1>
+    <!-- Getting value via form  -->
+    <form
+      class="max-w-lg bg-slate-200 mx-auto flex justify-center gap-2 flex-col p-2 rounded-md shadow-md shadow-black mb-[100px] mt-[10px]"
+      id="form"
+    >
+      <input
+        type="number"
+        class="w-full text-xl border-[1px] rounded-md p-[5px] text-black"
+        placeholder="Enter Your Value"
+        id="inputVal"
+      />
+      <button
+        type="submit"
+        class="my-2 p-[5px] text-xl rounded-md border-[1px] border-black w-fit mx-auto bg-green-500 text-white hover:bg-green-600 hover:font-medium hover:shadow-md"
+      >
+        Get Result
+      </button>
+    </form>
+    <!-- Form ended -->
+    <!-- Price Text -->
+    <h1 class="text-center text-xl font-medium">Price of House: 10000000</h1>
+
+    <!-- Result div started -->
+    <div
+      class="text-center text-2xl font-medium my-[20px]"
+      id="result-div"
+    ></div>
+    <!-- Result div ended -->
     <script src="app.js"></script>
-</head>
-<body>
-    
-</body>
+  </body>
 </html>
